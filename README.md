@@ -28,8 +28,7 @@ automated-book-workflow/
 ├── scraping/
 │   └── playwright_scraper.py  # Scrapes content from web
 │
-├── human_interface/
-│   └── streamlit_ui.py        # Human approval and feedback UI
+├── streamlit_ui.py        # Human approval and feedback UI
 │
 ├── chromadb/
 │   └── vector_store.py        # Stores and searches versions
@@ -117,7 +116,7 @@ Chapter rewritten and reviewed saved in outputs/
 |----------------|--------------|-------------|
 | AI Writer       | Gemma 2B     | Local via Ollama |
 | AI Reviewer     | Gemma 2B     | Local via Ollama |
-| Embeddings      | OpenAIEmbeddings or custom | ChromaDB |
+| Embeddings      | SentenceTransformerEmbedding or custom | ChromaDB |
 | RL Reward Logic | Custom       | Python Logic |
 
 ---
