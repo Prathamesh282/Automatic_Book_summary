@@ -1,22 +1,22 @@
-# 📚 Automated Book Publication Workflow
+#  Automated Book Publication Workflow
 
 An AI-powered pipeline that automates the scraping, rewriting, reviewing, and feedback-driven improvement of book chapters using local LLMs (Gemma 2B) via Ollama — all without requiring paid APIs.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- ✅ Chapter scraping from online sources (e.g., Wikisource)
-- ✍️ AI Writer: Rewrites content into a more engaging narrative using **Gemma 2B**
-- 🧐 AI Reviewer: Reviews for grammar, tone, and style improvements
-- 👨‍💻 Human-in-the-loop Streamlit UI for approval and feedback
-- 📊 Reward model using Reinforcement Learning signal
-- 🔍 Semantic search with ChromaDB for version retrieval
-- 🧠 All models run **locally via Ollama**, no paid APIs needed
+-  Chapter scraping from online sources (e.g., Wikisource)
+-  AI Writer: Rewrites content into a more engaging narrative using **Gemma 2B**
+-  AI Reviewer: Reviews for grammar, tone, and style improvements
+-  Human-in-the-loop Streamlit UI for approval and feedback
+-  Reward model using Reinforcement Learning signal
+-  Semantic search with ChromaDB for version retrieval
+-  All models run **locally via Ollama**, no paid APIs needed
 
 ---
 
-## 🧱 Project Structure
+##  Project Structure
 
 ```
 automated-book-workflow/
@@ -47,7 +47,7 @@ automated-book-workflow/
 
 ---
 
-## 🛠️ Installation
+##  Installation
 
 1. **Clone the repository**
 ```bash
@@ -72,7 +72,7 @@ ollama run gemma:2b
 
 ---
 
-## 📌 Usage
+##  Usage
 
 ### ➤ Step 1: Run the Workflow
 ```bash
@@ -96,13 +96,13 @@ streamlit run human_interface/streamlit_ui.py
 
 ---
 
-## 🧠 Semantic Search (ChromaDB)
+##  Semantic Search (ChromaDB)
 
 All versions are stored with embeddings using ChromaDB and can be retrieved via metadata and similarity search (via `vector_store.py`).
 
 ---
 
-## 🧪 Example Output
+##  Example Output
 
 ```bash
 Reward score: 0.87
@@ -111,7 +111,7 @@ Chapter rewritten and reviewed saved in outputs/
 
 ---
 
-## 🤖 Models Used
+##  Models Used
 
 | Component       | Model        | Source      |
 |----------------|--------------|-------------|
@@ -122,7 +122,7 @@ Chapter rewritten and reviewed saved in outputs/
 
 ---
 
-## 📎 Future Enhancements
+##  Future Enhancements
 
 - Switch to local embedding model (e.g., MiniLM) for full offline capability
 - Add multi-chapter ingestion
@@ -131,12 +131,12 @@ Chapter rewritten and reviewed saved in outputs/
 
 ---
 
-## 🧑‍💻 Contributors
+## � Contributors
 
 - **Prathamesh Bandal** – Project Author & Developer
 
 ---
 
-## 📄 License
+## � License
 
 This project is open-source and available under the [MIT License](LICENSE).
